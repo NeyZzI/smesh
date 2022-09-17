@@ -1,0 +1,122 @@
+.subtitle {
+    margin-top: 50px;
+}
+
+.title {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+}
+
+.home_about {
+    margin-top: 22px;
+    display: flex;
+    gap: 50px;
+    .social {
+        margin-left: 100px;
+    }
+    .about_site {
+        margin-left: 650px;
+    }
+    .social, .about_site {
+        font-family: 'Montserrat';
+        font-size: 20px;
+    }
+}
+
+.card_about {
+    background-color: #F7F7F7;
+    width: 200px;
+    height: 200px;
+    margin-left: 96px;
+    margin-top: 20px;
+    transition: 0.3s;
+    svg {
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    a {
+        margin-left: 35px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-radius: 10px;
+        background-color: #98F0A6;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s;
+    }
+    
+    a:hover {
+        background-color: #89db97;
+    }
+}
+
+.card_about2 {
+    background-color: #F7F7F7;
+    width: 200px;
+    height: 200px;
+    margin-left: 400px;
+    margin-top: -200px;
+    transition: 0.3s;
+
+    a {
+        margin-left: 35px;
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        border-radius: 10px;
+        background-color: #98F0A6;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s;
+    }
+    
+    .paper {
+        width: 100px;
+        height: 100px;
+        margin-left: 50px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    a:hover {
+        background-color: #89db97;
+    }
+}
+
+.card_text {
+    margin-top: -200px;
+    margin-left: 910px;
+    background-color: #F7F7F7;
+    width: 550px;
+    height: 200px;
+}
+
+.card_text_p {
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.card_about:hover {
+    transform: scale(110%);
+    transition: 0.3s;
+    background-color: #d2ffd8;
+}
+.card_about2:hover {
+    transform: scale(110%);
+    transition: 0.3s;
+    background-color: #d2ffd8;
+}

@@ -1,0 +1,58 @@
+.discord_text {
+    margin-top: 300px;
+}
+
+
+ .discord_cards {
+     display: flex;
+     flex-direction: row;
+ }
+
+ .discord_card {
+     background-color: #F7F7F7;
+     width: 300px;
+     height: 300px;
+     margin-top: 50px;
+     margin-left: 50px;
+     margin-right: 40px;
+     transition: 0.3s;
+}
+
+
+.discord_card:hover {
+    transform: scale(120%);
+    background-color: #E1FFE0;
+    transition: 0.3s;
+}
+
+
+ .discord_icon {
+     width: 100px;
+     height: 100px;
+    margin-left: 100px;
+     margin-top: 30px;
+ }
+
+ .discord_card_text {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+ }
+
+ .discord_link {
+     margin-left: 80px;
+     padding-right: 30px;
+     padding-left: 30px;
+     padding-top: 9px;
+     padding-bottom: 9px;
+     border-radius: 10px;
+     background-color: #98F0A6;
+     text-decoration: none;
+     color: black;
+     transition: 0.3s;
+ }
+
+ 

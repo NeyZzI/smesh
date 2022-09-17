@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fira Sans';
+}
+
+
+// main styles 
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+:root {
+    --clr: #222327;
+}
+
+.subtitle {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+// header
+@import 'header';
+
+// home
+@import 'home';
+
+// discord
+@import 'discord';
