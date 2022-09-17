@@ -1,3 +1,53 @@
 .shop_text {
-    margin-top: 300px;
+    margin-top: 250px;
+    padding-top: 50px;
+}
+
+ .shop_cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.shop_card {
+    background-color: #F7F7F7;
+    width: 250px;
+    height: 250px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 40px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.shop_card_text {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+}
+
+.shop_icon {
+    width: 125px;
+    height: 125px;
+    margin-top: 30px;
+}
+
+.shop_icon1 {
+    width: 125px;
+    height: 125px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.shop_card_price {
+    font-family: 'Fira Sans';
+    font-style: normal;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -40px;
 }
