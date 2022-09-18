@@ -53,6 +53,9 @@
                     <div class="indicator"></div>
                 </ul>
             </div>
+            <div id="progress">
+                <span id="progress-value"><ion-icon name="chevron-up-outline"></ion-icon></span>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -113,57 +116,64 @@
                     <img src="/assets/img/crown-smesh.svg" alt="" class="shop_icon">
                     <p class="shop_card_text">UNMATCHED</p>
                     <p class="shop_card_price">500/650</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
                 <div class="shop_card">
                     <img src="/assets/img/diamond-smesh.svg" alt="" class="shop_icon">
                     <p class="shop_card_text">ENDLESS</p>
                     <p class="shop_card_price">350/500</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
                 <div class="shop_card">
                     <img src="/assets/img/cristal-smesh.svg" alt="" class="shop_icon1">
                     <p class="shop_card_text">MAJESTIC</p>
                     <p class="shop_card_price">150/350</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
                 <div class="shop_card">
                     <img src="/assets/img/drink-smesh.svg" alt="" class="shop_icon">
                     <p class="shop_card_text">DIRECTOR</p>
                     <p class="shop_card_price">50/150</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
                 <div class="shop_card">
                     <img src="/assets/img/everyone-smesh.svg" alt="" class="shop_icon">
                     <p class="shop_card_text">EVERYONE</p>
                     <p class="shop_card_price">400</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
                 <div class="shop_card">
                     <img src="/assets/img/here-smesh.svg" alt="" class="shop_icon">
                     <p class="shop_card_text">HERE</p>
                     <p class="shop_card_price">200</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
                 <div class="shop_card">
                     <img src="/assets/img/custome_role-smesh.svg" alt="" class="shop_icon">
                     <p class="shop_card_text">CUSTOME ROLE</p>
                     <p class="shop_card_price">50/75</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
                 <div class="shop_card">
                     <img src="/assets/img/special_custome_role-smesh.svg" alt="" class="shop_icon">
                     <p class="shop_card_text">SPECIAL CUSTOME ROLE</p>
                     <p class="shop_card_price">300/500</p>
+                    <a href="https://discord.com/channels/837941760193724426/1004655436559036516">ПОДРОБНЕЕ</a>
                 </div>
             </div>
         </section>
+        <!-- &NEWS SECTION -->
+        <section class="news" id="news">
+            <div class="news_text">
+                <p class="subtitle">Обновления</p>
+                <h1 class="title">Обновления нашего Сервера</h1>
+            </div>
+        </section>
     </main>
-    <script>
-        const list = document.querySelectorAll('.list');
-        function activeLink() {
-            list.forEach((item) =>
-            item.classList.remove('active'));
-            this.classList.add('active');
-        }
-        list.forEach((item) =>
-        item.addEventListener('click',activeLink));
-    </script>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="/assets/js/scroll.js"></script>
+    <script src="/assets/js/nav.js"></script>
 </body>
 </html>

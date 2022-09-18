@@ -1,5 +1,5 @@
 .shop_text {
-    margin-top: 250px;
+    margin-top: 200px;
     padding-top: 50px;
 }
 
@@ -22,6 +22,12 @@
     transition: 0.3s;
 }
 
+.shop_card:hover {
+    transform: scale(120%);
+    background-color: #E1FFE0;
+    transition: 0.3s;
+}
+
 .shop_card_text {
     margin-top: 10px;
     margin-bottom: 50px;
@@ -34,14 +40,14 @@
 .shop_icon {
     width: 125px;
     height: 125px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .shop_icon1 {
     width: 125px;
     height: 125px;
     margin-left: 25px;
-    margin-top: 30px;
+    margin-top: 5px;
 }
 
 .shop_card_price {
@@ -49,5 +55,24 @@
     font-style: normal;
     font-size: 15px;
     text-align: center;
-    margin-top: -40px;
+    margin-top: -45px;
+    margin-bottom: 15px;
 }
+
+.shop_card a {
+    margin-top: 20px;
+     padding-right: 30px;
+     padding-left: 30px;
+     padding-top: 9px;
+     padding-bottom: 9px;
+     border-radius: 10px;
+     background-color: #98F0A6;
+     text-decoration: none;
+     color: black;
+     transition: 0.3s;
+}
+
+.shop_card a:hover {
+    background-color: #89db97;
+}
+
