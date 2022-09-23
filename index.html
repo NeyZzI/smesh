@@ -9,15 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="/assets/img/lollipop.png">
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" href="/assets/img/lollipop (1).png">
-
 </head>
 <body>
     <header class="header">
         <!-- &HEADER SECTION -->
         <div class="container">
-            <img src="/assets/img/lollipop (1).png" alt="" class="img">
+            <img src="/assets/img/lollipop.png" alt="" class="img">
             <h1 class="hero_text">Smesh</h1>
             <div class="nav">
                 <ul class="menu">
@@ -46,7 +46,7 @@
                         </a>
                     </li>
                     <li class="list">
-                        <a href="#" class="menu_link">
+                        <a href="#contacts" class="menu_link">
                             <span class="icon"><ion-icon name="chatbubbles-outline"></ion-icon></ion-icon></span>
                             <span class="text">Контакты</span>
                         </a>
@@ -61,7 +61,7 @@
     </header>
     <main class="main">
         <!-- &HOME SECTION -->
-        <section class="home" id="home">
+        <section class="home animate__animated animate__fadeInLeftBig" id="home">
             <div class="home_text">
                 <p class="subtitle">Главная</p>
                 <h1 class="title">Все про сайт и Смеша вы узнаете тут</h1>
@@ -81,7 +81,7 @@
                 <div class="card_text"><p class="card_text_p">Сайт был сделан для тик-токера “Смеш”, на этом сайте вы можете найти все про его дискорд сервер и про его самого</p></div>
         </section>
         <!-- &DISCORD SECTION -->
-        <section class="discord" id="discord">
+        <section class="discord animate__animated animate__fadeInRightBig" id="discord">
             <div class="discord_text">
                 <p class="subtitle">Наш Дискорд</p>
                 <h1 class="title">Все про наш Дискорд Сервер вы увидите него</h1>
@@ -167,11 +167,64 @@
         <section class="news" id="news">
             <div class="news_text">
                 <p class="subtitle">Обновления</p>
-                <h1 class="title">Обновления нашего Сервера</h1>
+                <h1 class="title">Обновления нашего Сервера и Сайта</h1>
+            </div>
+            <div class="news_cards">
+                <div class="news_card_site">
+                    <div class="box_shadow">
+                        <p class="news_version">V. 1.0 <span class="news_version_site">САЙТ</span></p>
+                    </div>
+                    <img src="/assets/img/lollipop.png" alt="" class="news_lolipop">
+                    <h1 class="title_news_site_about">ЗАПУСК САЙТА!</h1>
+                    <p class="news_site_about">В версии 1.0 произошел запуск сайта. Он был полностью оптимизирован и сделан для вашего комфорта. Здесь вы найдете все о Смеше и Дискорд Сервере. Сайт постоянно обновляется. На нем присутсвуют баги, что бы помочь их исправить свяжитесь с нами по кнопке ниже.</p>
+                    <a href="form.html" class="news_idea">ПОДАТЬ ИДЕЮ</a>
+                </div>
+                <div class="news_card_server">
+                    <div class="box_shadow">
+                        <p class="news_version">V. ??? <span class="news_version_server">СЕРВЕР</span></p>
+                    </div>
+                    <ion-icon name="git-branch-outline" class="news_discord"></ion-icon>
+                    <h1 class="title_news_discord_about">НОВЫЙ ЭТАП!</h1>
+                    <p class="news_discord_about">Наш сервер переходит в новый этап, мы продвигаемся все дальше и дальше, на наш сервер пришли перемены, скоро измениться все оформления, роли, значки. Пришло пару новых админов которые сделают наш сервер лучше. Так же мы взяли настрой на получение звания партнерского Дискорд сервера.</p>
+                </div>
             </div>
         </section>
     </main>
-
+    <footer>
+        <!-- &CONTACTS SECTION -->
+        <section class="contacts" id="contacts">
+            <div class="contacts_text">
+                <p class="subtitle">Контакты</p>
+                <h1 class="title">Контакты нашего Сервера и Смеша</h1>
+            </div>
+            <div class="contacts_card">
+                <div class="contacts_smesh">
+                    <img src="/assets/img/lollipop.png" alt="" class="contacts_lolipop">
+                    <p class="contacts_smesh_text">Smesh</p>
+                    <p class="contacts_smesh_copyrights">© 2022</p>
+                </div>
+                <div class="contacts_nav">
+                    <p class="contacts_nav_text">Навигация по сайту</p>
+                    <a href="#home" class="contacts_link">&#x2022; ГЛАВНАЯ</a>
+                    <a href="#discord" class="contacts_link">&bull; ДИСКОРД</a>
+                    <a href="#shop" class="contacts_link">&#8226; МАГАЗИН</a>
+                </div>
+                <div class="contacts_contact_us">
+                    <p class="contacts_contact_us_text">Cвяжитесь с нами</p>
+                    <a href="#" class="contacts_contact_us_button">ПЕРЕЙТИ</a>
+                    <a href="mailto:smesh.production@gmail.com" class="contacts_contact_us_email">smesh.production@gmail.com</a>
+                </div>
+                <div class="contacts_team">
+                    <p class="contacts_team_text">Наша команда</p>
+                    <ul class="contacts_team_list">
+                        <li class="contacts_team_list_members">Smesh : Smesh#4142</li>
+                        <li class="contacts_team_list_members">Главный Администратор : nntwy#0006</li>
+                        <li class="contacts_team_list_members">Разработчик сайта : Chloun?#3875</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="/assets/js/scroll.js"></script>

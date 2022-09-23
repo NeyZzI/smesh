@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smesh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="icon" href="/assets/img/lollipop.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="content">
+            <h2>Свяжитесь с нами</h2>
+            <p>Свяжитесь с нами что-бы получить ответ на ваше предложение/вопрос/жалобу.</p>
+        </div>
+        <div class="container1">
+            <div class="contact_info">
+                <div class="box">
+                    <div class="icon"><ion-icon name="code-outline"></ion-icon></div>
+                    <div class="text">
+                        <h3>Разработчик</h3>
+                        <p>Chloun?#3875</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon"><ion-icon name="mail-outline"></ion-icon></div>
+                    <div class="text">
+                        <h3>Почта</h3>
+                        <p>smesh.production@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact_form">
+                <form id="form">
+                    <h2>Отправить сообщения</h2>
+                    <div class="input_box">
+                        <input type="text" required="required" class="_req">
+                        <span>Дискорд тег</span>
+                    </div>
+                    <div class="input_box">
+                        <input type="text" required="required" class="_req">
+                        <span>Дискорд айди</span>
+                    </div>
+                    <div class="input_box">
+                        <input type="text" required="required" class="_email_req">
+                        <span>Ваша почта</span>
+                    </div>
+                    <div class="input_box">
+                        <textarea required="required" class="_req"></textarea>
+                        <span>Напишите ваше сообщение...</span>
+                    </div>
+                    <div class="input_box">
+                        <button type="submit" class="btn" onclick="openPoppup()">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+                <div class="poppup" id="poppup">
+                    <img src="/assets/img/404-tick.png" alt="">
+                    <h2>Спасибо!</h2>
+                    <p>Спасибо что оставили ваш отзыв. Он был успешно отправлен на проверку. Мы ценим ваше мнение.</p>
+                    <a href="index.html">Перейти обратно</a>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

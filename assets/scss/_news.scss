@@ -2,3 +2,108 @@
     margin-top: 200px;
     padding-top: 50px;
 }
+
+.news_cards {
+    margin-top: 50px;
+    display: flex;
+}
+
+.news_card_site {
+    padding-bottom: 400px;
+    margin-left: 50px;
+    width: 700px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+.news_card_server {
+    padding-bottom: 400px;
+    margin-left: 20px;
+    width: 700px;
+    height: 300px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background-color: #f7f7f7;
+}
+
+.news_version {
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Fira Sans';
+    font-style: normal;
+}
+
+.news_version_site, .news_version_server {
+    margin-left: 170px;
+}
+
+.box_shadow {
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    border-top: 10px;
+    padding-bottom: 45px;
+}
+
+.news_lolipop {
+    width: 250px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #D7D7D7;
+    border-radius: 10px;
+}
+
+.title_news_site_about {
+    margin-top: -240px;
+    margin-left: 400px;
+}
+
+.news_site_about {
+    margin-left: 300px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+}
+
+.news_idea {
+    padding: 5px 25px 5px;
+    margin-left: 400px;
+    background-color: #D7D7D7;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    color: black;
+    transition: 0.5s
+}
+
+.news_idea:hover {
+    background-color: #e4e4e4;
+}
+
+.title_news_discord_about {
+    margin-top: -190px;
+    margin-left: 400px;
+}
+
+.news_discord_about {
+    margin-left: 300px;
+    margin-right: 15px;
+}
+
+.news_discord {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #D7D7D7;
+    border-radius: 10px;
+}
